@@ -1,5 +1,5 @@
-Data-Driven Decision-Making and Performance Enhancement in Educational Institutions
-Project Overview
+---Data-Driven Decision-Making and Performance Enhancement in Educational Institutions
+--Project Overview
 This project leverages the Open University Learning Analytics Dataset (OULAD) to predict student performance outcomes and enable proactive educational interventions. By integrating machine learning models with a Power BI Learning Analytics Dashboard, the study demonstrates how data-driven tools can identify at-risk students, monitor engagement, and provide actionable insights for educators and policymakers.
 
 Motivation
