@@ -9,26 +9,26 @@ Educational institutions in developing countries face systemic challenges such a
 - Improve student retention and success rates.
 
 
-Provide educators with interpretable insights for intervention.
+- Provide educators with interpretable insights for intervention.
 
 
-Showcase how learning analytics dashboards can transform decision-making in higher education .
+- Showcase how learning analytics dashboards can transform decision-making in higher education .
 
 
 
 Code and Resources Used
 
 
-Programming Languages: Python (pandas, scikit-learn, matplotlib, seaborn)
+- Programming Languages: Python (pandas, scikit-learn, matplotlib, seaborn)
 
 
-Visualization: Power BI
+- Visualization: Power BI
 
 
-Dataset: Open University Learning Analytics Dataset (OULAD)
+- Dataset: Open University Learning Analytics Dataset (OULAD)
 
 
-Machine Learning Models: Logistic Regression, Decision Tree, Random Forest, Gradient Boosting
+- Machine Learning Models: Logistic Regression, Decision Tree, Random Forest, Gradient Boosting
 
 
 
@@ -39,49 +39,49 @@ The dataset was sourced from the Open University (UK) and hosted publicly on Kag
 StudentInfo (demographics, age, gender, prior education)
 
 
-StudentAssessment & Assessment (submission dates, scores, weights)
+- StudentAssessment & Assessment (submission dates, scores, weights)
 
 
-StudentVLE & VLE (Virtual Learning Environment interactions, clicks, activity types)
+- StudentVLE & VLE (Virtual Learning Environment interactions, clicks, activity types)
 
 
-StudentRegistration (enrollment and withdrawal data) .
+- StudentRegistration (enrollment and withdrawal data) .
 
 
 
 ## EDA
 
 
-Exploratory Data Analysis (EDA) revealed:
-Assessment submission and high scores are the strongest predictors of success.
+# Exploratory Data Analysis (EDA) revealed:
+- Assessment submission and high scores are the strongest predictors of success.
 
 
-Older and more educated students perform better.
+- Older and more educated students perform better.
 
 
-Students with disabilities face higher risk of withdrawal and failure.
+- Students with disabilities face higher risk of withdrawal and failure.
 
 
-Engagement (VLE clicks) strongly correlates with pass rates .
+- Engagement (VLE clicks) strongly correlates with pass rates .
 
 
 
-Preprocessing and Feature Engineering
+## Preprocessing and Feature Engineering
 
 
-Merged 7 raw tables into a unified dataset.
+- Merged 7 raw tables into a unified dataset.
 
 
-Missing values imputed or dropped (sparse fields like date_unregistration).
+- Missing values imputed or dropped (sparse fields like date_unregistration).
 
 
-Categorical encoding for demographics and education.
+- Categorical encoding for demographics and education.
 
 
-Standardization applied to numerical features.
+- Standardization applied to numerical features.
 
 
-Selected features: Age, Gender, Disability status, Module attempts, Assessment submission, Previous education, Final score .
+- Selected features: Age, Gender, Disability status, Module attempts, Assessment submission, Previous education, Final score .
 
 
 
@@ -90,25 +90,25 @@ Selected features: Age, Gender, Disability status, Module attempts, Assessment s
 Several classification models were trained and evaluated:The Random Forest Classifier showed the best balance, particularly excelling at recall (correctly identifying at-risk students) .
 
 ## Model Explainability
-Feature importance (Random Forest):
+- Feature importance (Random Forest):
 
 
-Assessment submission
+  Assessment submission
 
 
-Module attempts
+  Module attempts
 
 
-Disability status
+  Disability status
 
 
-Previous education
+  Previous education
 
 
-VLE engagement
+  VLE engagement
 
 
-Explainability ensured the model’s predictions were transparent and actionable for educators .
+- Explainability ensured the model’s predictions were transparent and actionable for educators .
 
 
 
@@ -118,13 +118,13 @@ The final Random Forest model was integrated into a Power BI Dashboard that prov
 KPI Panels: Retention, engagement, at-risk students, average CGPA
 
 
-Demographics View: Age, disability status, education, gender
+- Demographics View: Age, disability status, education, gender
 
 
-Assessment Adherence Tracker: Monitors submission trends
+- Assessment Adherence Tracker: Monitors submission trends
 
 
-Engagement Monitor: Tracks VLE interactions
+- Engagement Monitor: Tracks VLE interactions
 
 
 This allows real-time, interpretable insights for non-technical stakeholders .
