@@ -1,10 +1,12 @@
----Data-Driven Decision-Making and Performance Enhancement in Educational Institutions
---Project Overview
+Data-Driven Decision-Making and Performance Enhancement in Educational Institutions
+
+Project Overview
 This project leverages the Open University Learning Analytics Dataset (OULAD) to predict student performance outcomes and enable proactive educational interventions. By integrating machine learning models with a Power BI Learning Analytics Dashboard, the study demonstrates how data-driven tools can identify at-risk students, monitor engagement, and provide actionable insights for educators and policymakers.
 
 Motivation
+
 Educational institutions in developing countries face systemic challenges such as limited resources, lack of data-driven tools, and high dropout rates. This project was motivated by the need to:
-Improve student retention and success rates.
+- Improve student retention and success rates.
 
 
 Provide educators with interpretable insights for intervention.
@@ -15,6 +17,8 @@ Showcase how learning analytics dashboards can transform decision-making in high
 
 
 Code and Resources Used
+
+
 Programming Languages: Python (pandas, scikit-learn, matplotlib, seaborn)
 
 
@@ -29,6 +33,8 @@ Machine Learning Models: Logistic Regression, Decision Tree, Random Forest, Grad
 
 
 Data Collection
+
+
 The dataset was sourced from the Open University (UK) and hosted publicly on Kaggle. It contains seven tables including:
 StudentInfo (demographics, age, gender, prior education)
 
@@ -44,6 +50,8 @@ StudentRegistration (enrollment and withdrawal data) .
 
 
 EDA
+
+
 Exploratory Data Analysis (EDA) revealed:
 Assessment submission and high scores are the strongest predictors of success.
 
@@ -59,6 +67,8 @@ Engagement (VLE clicks) strongly correlates with pass rates .
 
 
 Preprocessing and Feature Engineering
+
+
 Merged 7 raw tables into a unified dataset.
 
 
