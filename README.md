@@ -1,9 +1,9 @@
-Data-Driven Decision-Making and Performance Enhancement in Educational Institutions
+### Data-Driven Decision-Making and Performance Enhancement in Educational Institutions
 
-Project Overview
+## Project Overview
 This project leverages the Open University Learning Analytics Dataset (OULAD) to predict student performance outcomes and enable proactive educational interventions. By integrating machine learning models with a Power BI Learning Analytics Dashboard, the study demonstrates how data-driven tools can identify at-risk students, monitor engagement, and provide actionable insights for educators and policymakers.
 
-Motivation
+## Motivation
 
 Educational institutions in developing countries face systemic challenges such as limited resources, lack of data-driven tools, and high dropout rates. This project was motivated by the need to:
 - Improve student retention and success rates.
@@ -32,7 +32,7 @@ Machine Learning Models: Logistic Regression, Decision Tree, Random Forest, Grad
 
 
 
-Data Collection
+## Data Collection
 
 
 The dataset was sourced from the Open University (UK) and hosted publicly on Kaggle. It contains seven tables including:
@@ -49,7 +49,7 @@ StudentRegistration (enrollment and withdrawal data) .
 
 
 
-EDA
+## EDA
 
 
 Exploratory Data Analysis (EDA) revealed:
@@ -85,10 +85,11 @@ Selected features: Age, Gender, Disability status, Module attempts, Assessment s
 
 
 
-Model Performance
+## Model Performance
+
 Several classification models were trained and evaluated:The Random Forest Classifier showed the best balance, particularly excelling at recall (correctly identifying at-risk students) .
 
-Model Explainability
+## Model Explainability
 Feature importance (Random Forest):
 
 
@@ -111,7 +112,8 @@ Explainability ensured the model’s predictions were transparent and actionable
 
 
 
-Productionization
+## Productionization
+
 The final Random Forest model was integrated into a Power BI Dashboard that provides:
 KPI Panels: Retention, engagement, at-risk students, average CGPA
 
